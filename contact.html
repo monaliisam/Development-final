@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us - Local Cafe</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+</head>
+<body class="contact-background">
+    
+	<h1 class="contactt">Contact Us</h1>
+	<form action="#" method="post">
+		<label for="name">Name</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="email">Email</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="phone">Phone</label>
+		<input type="text" id="phone" name="phone">
+
+		<label for="subject">Subject</label>
+		<select id="subject" name="subject" required>
+			<option value="">Choose a subject</option>
+			<option value="General Inquiry">General Inquiry</option>
+			<option value="Feedback">Feedback</option>
+			<option value="Catering">Catering</option>
+			<option value="Employment">Employment</option>
+		</select>
+
+		<label for="message">Message</label>
+		<textarea id="message" name="message" required></textarea>
+
+		<label>How did you hear about us?</label>
+		<label><input type="radio" name="hear" value="Word of mouth" required>Word of mouth</label>
+		<label><input type="radio" name="hear" value="Social media">Social media</label>
+		<label><input type="radio" name="hear" value="Online search">Online search</label>
+		<label><input type="radio" name="hear" value="Other">Other</label>
+
+		<label>What's your favorite item on our menu?</label>
+		<label><input type="checkbox" name="menu[]" value="Coffee">Coffee</label>
+		<label><input type="checkbox" name="menu[]" value="Tea">Tea</label>
+		<label><input type="checkbox" name="menu[]" value="Pastries">Pastries</label>
+		<label><input type="checkbox" name="menu[]" value="Sandwiches">Sandwiches</label>
+		<label><input type="checkbox" name="menu[]" value="Salads">Salads</label>
+
+        <button type="submit">Submit</button>
+	</form>
+</body>
+</html>
